@@ -1,0 +1,421 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway", sans-serif;
+    color: rgb(5, 125, 181)
+}
+button{
+    padding:12px 30px;
+    background-color: rgb(0, 174, 255);
+    border-radius: 10px;
+    border: none;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size:medium;
+    font-weight: 600;
+    
+}
+button:hover{
+    background-color: rgb(246, 244, 244);
+}
+a:hover{
+    color: rgb(0, 174, 255);
+}
+span{
+    color: rgb(0, 174, 255);
+}
+
+/*--------------------------------------------------------------
+            # start Navbar Section
+--------------------------------------------------------------*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height:14%;
+    background-color: rgb(21, 21, 21);
+    top: 0px; 
+    margin: 0px 0px ;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.logodiv{
+   display: inline;
+   position: absolute;
+   float: left;
+   left: 150px;
+   
+}
+.logodiv h2{
+    font-weight: 700;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+.white{
+    color: rgb(0, 174, 255);
+    
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: smaller;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+ul{
+    position: absolute;
+    float: left;
+    top: 40px;
+    left: 550px;
+}
+
+
+.navbar button{
+    position: absolute;
+    float: right;
+    right: 180px;
+}
+.socila-img{
+    position: absolute;
+    float: right;
+    right: 40px;
+    width: 30px;
+}
+.socila-img:hover{
+    width: 35px;
+}
+.socila-img2{
+    right: 80px;
+}
+.socila-img3{
+    right: 120px;
+}
+
+/*--------------------------------------------------------------
+            # start Home Section
+--------------------------------------------------------------*/
+
+.home{
+    height: 100vh;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.622),rgba(0, 0, 0, 0.622),rgba(0, 0, 0, 0.191)) ,url("media/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.text-div{
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    color: white;
+}
+.text-div h1{
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  color: white;
+}
+.text-div p{
+    font-size: medium;
+    font-weight: 300;
+  }
+
+
+/*--------------------------------------------------------------
+            # start About Section
+--------------------------------------------------------------*/
+
+.About{
+    height:  100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.maindiv{
+    position: relative;
+    float: left;
+    margin: 0px 0px;
+    left: 150px;
+    top: 110px;
+    padding: 290px 615px;
+    
+}
+.heading{
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+.heading h1{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  color: rgb(5, 125, 181)
+}
+.heading p{
+    margin-top: 20px;
+}
+
+.bio{
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    margin: 0px 0px;
+    padding: 175px 600px;
+}
+.bio img{
+    position: absolute;
+    width: 350px;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+.bio h1,.bio p{
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    float: right;
+}
+.bio h1{
+    top: 0px;
+    font-weight: 800;
+    font-size: x-large;
+}
+.bio p{
+    top: 50px;
+    font-size: small;
+}
+.info{
+    float: left;
+    position: absolute;
+    top: 140px;
+    margin: 0px 0px;
+    padding: 100px 170px;
+   
+}
+.info-1{
+    left: 700px;
+}
+.info-2{
+    left: 360px;
+}
+.info ul{
+    position: absolute;
+    top:40px;
+    left: 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.info-2 ul li a{
+    color: rgb(0, 174, 255);
+}
+.info ul li{
+    padding: 10px 0px;
+    font-size: small;
+}
+
+
+/*--------------------------------------------------------------
+            # start skill Section
+--------------------------------------------------------------*/
+
+.skills{
+    height: 100vh;
+    background-color: rgba(0, 174, 255, 0.104);
+}
+
+.container-fluid{
+    position: absolute;
+    float: left;
+    left: -15px;
+    top: 180px;
+    height: 300px ;
+}
+
+.progress-name{
+    font-size: small;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    white-space: pre;
+    text-transform: uppercase;
+}
+.col-6{
+    margin-top: 30px;
+    
+}
+.progress-bar{
+    background-color: rgb(0, 174, 255);
+}
+
+/*--------------------------------------------------------------
+            # start Resume Section
+--------------------------------------------------------------*/
+
+.Resume{
+    height: 100vh;
+}
+.download-resume{
+    position: absolute;
+    top: 100px;
+    left: 00px;
+    background-color: rgb(236, 233, 238);
+    width: 100% ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.download-resume h1,.download-resume button{
+    position: absolute;
+    top: 100px;
+    color: black;
+}
+.download-resume button{
+    position: absolute;
+    top: 200px;
+}
+
+
+/*--------------------------------------------------------------
+            # start portfolio Section
+--------------------------------------------------------------*/
+
+.portfolio{
+    height: 120vh;
+    background-color: rgba(0, 174, 255, 0.104);
+}
+
+.imgdiv{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 30%;
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.imgdiv2{
+    left: 430px;
+}
+.imgdiv3{
+    left: 860px;
+}
+.imgdiv h1 {
+    position: absolute;
+    float: left;
+    top: 380px;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+   
+}
+.imgdiv button {
+    position: absolute;
+    top: 430px
+}
+
+.imgdiv img{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    border-radius: 20px;
+    clip-path: inset(0 0 35% 0);
+   
+}
+
+/*--------------------------------------------------------------
+            # start contact Section
+--------------------------------------------------------------*/
+
+.contact{
+    height: 100vh;
+}
+.contact-form{
+    background-color: beige;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    justify-content: center;
+}
+.contact-form-2{
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+}
+.contact-form2{
+    left: 0px;
+    width: 40%;
+}
+.inf{
+    position: absolute;
+    top: 120px;
+    left: 170px;
+    
+}
+.cimg1{
+    position: absolute;
+    top: 0px ;
+    left: -80px;
+    width: 50px;
+}
+.cimg2{
+    top: 100px;
+    width:40px ;
+}
+.cimg3{
+    top: 200px;
+}
+
+/*--------------------------------------------------------------
+            # start footer Section
+--------------------------------------------------------------*/
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 15vh;
+    
+    margin-bottom: 0px;
+}
+.copyright{
+    position: relative;
+    float: left;
+    top: 40px;
+    left: 450px;
+}
+
+
+
+
